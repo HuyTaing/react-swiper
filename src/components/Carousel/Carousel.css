@@ -16,10 +16,6 @@
   padding-bottom: 0.625rem;
 }
 
-.swiper-slide-next {
-  background-color: red
-}
-
 .swiper-slide-active div {
   display: flex;
   flex-direction: column;
