@@ -1,0 +1,64 @@
+.myswiper {
+  width: 100%;
+    padding-top: 3.125rem;
+}
+
+.myswiper-slider {
+  width: 18.75rem;
+  height: 28.125rem;
+  background-size: cover;
+  background-position: center;
+}
+
+.myswiper-slider div {
+  display: none;
+  opacity: 0;
+  padding-bottom: 0.625rem;
+}
+
+.swiper-slide-next {
+  background-color: red
+}
+
+.swiper-slide-active div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  opacity: 1;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.swiper-slide-active div a {
+  align-self: flex-start;
+}
+
+.myswiper-slider h2 {
+  color: #fff;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.4;
+  margin-bottom: 0.625rem;
+  padding: 0 0 0 1.563rem;
+  text-transform: uppercase;
+}
+
+.myswiper-slider p {
+  color: #dadada;
+  padding: 0 1.563rem;
+  line-height: 1.6;
+  font-size: 0.75rem;
+}
+
+.myswiper-slider a {
+  margin: 1.25rem 1.5rem 3.5rem;
+}
+
+.myswiper-slider a:hover {
+  color: #00a4aa;
+}
+
+.swiper-pagination-bullet,
+.swiper-pagination-bullet-active {
+  background: #fff;
+}
